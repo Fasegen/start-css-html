@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ватоня</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <img src="./img/logo.svg" alt="logotip">
-        <p>BuhOne</p>
-        <ul>
+        <p class = "Naming">BuhOne</p>
+        <ul class = "title">
             <li>
                 <a href="tel:82281488133">
                     <img src="./img/telephone.svg" alt="telephone">
@@ -32,10 +34,8 @@
                 <span>Невский пр.130</span>
             </li>
         </ul>
-        ><nav>
-            <li>
-                <a href="#">главная
-                </a></li>
+        <nav>
+            <li><a href="#">главная</a></li>
             <li><a href="#">услуги</a></li>
             <li><a href="#">кейсы</a></li>
             <li><a href="#">о компании</a></li>
@@ -43,20 +43,20 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Бухгалтерские услуги в Санкт-Петербурге</h1>
+        <section class="main-title-back">
+            <h1 class = "main-title">Бухгалтерские услуги в Санкт-Петербурге</h1>
             <a href="#">Наша презентация</a>
         </section>
-        <section>
-            <h2>Наши услуги</h2>
-            <p>Мы специализируемся</p>
-            ><ul>
-                <li><a href="#"><h3>Бухгалтерские услуги</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерские услуги</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерские услуги</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерские услуги</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерские услуги</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерские услуги</h3></a></li>
+        <section class="service">
+            <h2 class="section-title">Наши услуги</h2>
+            <p class="section-sub-title">Мы специализируемся</p>
+            <ul class="service-list">
+                <li><a href="#"><h3 class="service-item-title">Бухгалтерские услуги</h3></a></li>
+                <li><a href="#"><h3 class="service-item-title">Бухгалтерские услуги</h3></a></li>
+                <li><a href="#"><h3 class="service-item-title">Бухгалтерские услуги</h3></a></li>
+                <li><a href="#"><h3 class="service-item-title">Бухгалтерские услуги</h3></a></li>
+                <li><a href="#"><h3 class="service-item-title">Бухгалтерские услуги</h3></a></li>
+                <li><a href="#"><h3 class="service-item-title">Бухгалтерские услуги</h3></a></li>
             </ul>
         </section>
         <section>
@@ -87,9 +87,97 @@
                 </li>
             </ul>
         </section>
+        <section>
+            <h2>Наши клиенты</h2>
+            <p>С нами работают</p>
+            <ul>
+                <li><a href="#"><img src="./img/logo-windows.png" alt="windows"></a></li>
+                <li><a href="#"><img src="./img/logo-windows.png" alt="windows"></a></li>
+                <li><a href="#"><img src="./img/logo-windows.png" alt="windows"></a></li>
+                <li><a href="#"><img src="./img/logo-windows.png" alt="windows"></a></li>
+                <li><a href="#"><img src="./img/logo-windows.png" alt="windows"></a></li>
+                <li><a href="#"><img src="./img/logo-windows.png" alt="windows"></a></li>
+                <li><a href="#"><img src="./img/logo-windows.png" alt="windows"></a></li>
+                <li><a href="#"><img src="./img/logo-windows.png" alt="windows"></a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Отзывы</h2>
+            <p>Ваши благодарности</p>
+            <ul>
+                <li><p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                    <img src="./img/woman.png" alt="woman_pic">
+                    <p>Екатерина Иванова</p>
+                    <p>Директор ООО"Раз-два"</p>
+                </li>
+                <li><p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                    <img src="./img/woman.png" alt="woman_pic">
+                    <p>Екатерина Иванова</p>
+                    <p>Директор ООО"Раз-два"</p>
+                </li>
+                <li><p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                    <img src="./img/woman.png" alt="woman_pic">
+                    <p>Екатерина Иванова</p>
+                    <p>Директор ООО"Раз-два"</p>
+                </li>
+                <li><p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                    <img src="./img/woman.png" alt="woman_pic">
+                    <p>Екатерина Иванова</p>
+                    <p>Директор ООО"Раз-два"</p>
+                </li>
+            </ul>
+            <ul>
+                <li><button type="button">1</button></li>
+                <li><button type="button">2</button></li>
+                <li><button type="button">3</button></li>
+                <li><button type="button">4</button></li>
+            </ul>
+            <button type="button" disabled><img src="./img/left-buttom.svg" alt="left_buttom"></button>
+            <button type="button"><img src="./img/right-buttom.svg" alt="right_buttom"></button>
+        </section>
+        <section>
+            <h2>Наши преимущества</h2>
+            <p>Мы предлагаем</p>
+            <ul>
+                <li><img src="./img/quality.svg" alt="quality">
+                    <p>Качество</p>
+                </li>
+                <li><img src="./img/speed.svg" alt="speed">
+                    <p>Оперативность</p>
+                </li>
+                <li><img src="./img/expert.svg" alt="expert">
+                    <p>Экспертность</p>
+                </li>
+            </ul>
+        </section>
     </main>
     <footer>
-
+        <div>
+            <h2>Связь с нами</h2>
+            <p>У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+            <ul>
+                <li>
+                    <a href="tel:81112223344">
+                        <img src="./img/telephone1.svg" alt="pic-telephone">
+                        <span>+7 (111) 222-33-44</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:order@bu-one.ru">
+                        <img src="./img/mail2.svg" alt="telephone">
+                        <span>order@bu-one.ru</span>
+                    </a>
+                </li>
+            </ul>
+        </div> 
+        <div>
+            форма
+        </div>     
+        <div>
+            <p>2019 (c) Все права защищены. БухОне.ру</p>
+            <p>Разработано: BuhOne</p>
+        </div>
     </footer>
+    <div>попав</div>
 </body>
 </html>

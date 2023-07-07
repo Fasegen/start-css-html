@@ -1,0 +1,13 @@
+.Naming {
+    color: #005FA3;
+}
+.title {
+    color: #222222;
+}
+.main-title{
+    color: #222;
+}
+.main-title-back{
+    background: url(../img/town.png);
+    width: auto; height: auto;
+}
