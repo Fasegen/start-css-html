@@ -1,13 +1,73 @@
-.Naming {
-    color: #005FA3;
+.header-title {
+    color: #005FA3
 }
-.title {
-    color: #222222;
+
+body {
+    color: #333
 }
-.main-title{
+
+.header-contact-text {
+    color: #000
+}
+
+.header-contact-link {
+    text-decoration: none;
+}
+
+.header-nav-link {
+    text-decoration: none;
     color: #222;
+    text-transform: uppercase;
 }
-.main-title-back{
-    background: url(../img/town.png);
-    width: auto; height: auto;
+
+.main-slide-text,
+.main-slide-link {
+    color: #FFF
 }
+
+.main-slide {
+    background-color: #191E22 ;
+    background-image: url(../img/town.png);
+}
+
+.main-slide-link {
+    text-decoration: none;
+}
+
+.service {
+    background: #EBEBEB;
+}
+
+.section-title {
+    color: #BDBDBD
+}
+
+.section-sub-title{
+    color: #333
+}
+
+.service-item-title {
+    color: #FFF;
+}
+
+.service-item-link{
+    background-image: url(../img/building-image.png);
+    text-decoration: none;
+}
+
+.review-button {
+    color: #FFF
+}
+
+.review-item-text {
+    color:#000;
+}
+
+.review-item-author {
+    color: #000;
+}
+
+.review-item-position {
+    color: #EBEBEB
+}
+
